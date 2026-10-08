@@ -31,7 +31,7 @@ release files and your legally obtained MAME ROM set to these exact paths:
 
 ```text
 /media/fat/_Arcade/Marble Madness II (prototype).mra
-/media/fat/_Arcade/cores/Arcade-MarbleMadness2.rbf
+/media/fat/_Arcade/cores/Arcade-MarbleMadness2_20260904.rbf
 /media/fat/games/mame/marblmd2.zip
 ```
 
@@ -103,7 +103,7 @@ The generated MiSTer image is
 `output_files\Arcade-MarbleMadness2.rbf`.
 
 For an updater release, copy the generated image to `releases/` as
-`Arcade-MarbleMadness2.rbf`. Keep the primary MRA directly in that
+`Arcade-MarbleMadness2_20260904.rbf`. Keep the primary MRA directly in that
 same directory. The repository intentionally does not contain game ROMs.
 
 ## ROM layout
@@ -121,7 +121,7 @@ The HDL restores the OKI data to its original logical windows.
 ## Credits and licensing
 
 This port is maintained by
-[kandowontu](https://github.com/kandowontu) and was developed collaboratively
+[kandowontu](https://github.com/kandowontu2) and was developed collaboratively
 with OpenAI Codex. See [CREDITS.md](CREDITS.md) for the complete list of
 authors, upstream FPGA cores, modeled ICs, reference projects, and device
 acknowledgements.
